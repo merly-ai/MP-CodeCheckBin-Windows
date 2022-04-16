@@ -6,7 +6,7 @@ Please email us with any questions, comments, issues, or anything related to MP-
 
 # What is MP-CodeCheck?
 MPCC is a self-supervised, iterative learning, anomaly detection system for code. MPCC was designed to learn good and bad code syntax, patterns, and semantics from a large corpora of existing code. Once trained, MPCC’s model can be used for a variety of tasks such as: (i) detecting potential anomalies in existing code,
-(ii) grading the quality of an existing repository, and (iii) guiding programmers through the important aspects of a new code
+(ii) grading the quality of an existing repository, and (iii) guiding programmers through the important aspects of an unfamiliar or updated code
 repository, to name a few.
 
 At its core, MPCC is a machine programming (MP) system that autonomously identifies anomalous logical expressions directly
