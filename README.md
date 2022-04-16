@@ -7,5 +7,17 @@ MPCC is a self-supervised, iterative learning, anomaly detection system for code
 (ii) grading the quality of an existing repository, and (iii) guiding programmers through the important aspects of a new code
 repository, to name a few.
 
+At its core, MPCC is a machine programming (MP) system that autonomously identifies anomalous logical expressions directly
+in source code. These anomalous expressions, also known as anomalies, are often latent defects in the existing code that
+programmers have failed to identify or correct. MPCC helps programmers find these anomalies and correct them, thereby
+improving the overall quality of the existing software. For this limited release version of MPCC, we only include MPCC the
+ability to perform inference (i.e., detect good or bad patterns) on code. In subsequent releases of MPCC, we may also include
+the ability to train new models on other code bases, including users’ own proprietary ones.
 
+## Setup Instructions
+Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
+things (at a minimum):
+1. A model trained on code (provided by Merly).
+2. The MPCC executable (provided by Merly).
+3. A code base to run inference against (provided by you, the user).
 
