@@ -1,4 +1,4 @@
-Thank you for visiting the MP-CodeCheck GitHub repository! We are happy you are here! If you enjoy using MP-CodeCheck and find it useful, we would greatly appreciate your feedback. Please send us an email with questions, comments, issues, or anything related to MP-CodeCheck to support@merly.ai or debugging@merly.ai. We would love to hear from you!
+Thank you for visiting Merly's MP-CodeCheck GitHub repository! We are happy you are here! If you enjoy using MP-CodeCheck and find it useful, we would greatly appreciate your feedback. Please send us an email with questions, comments, issues, or anything related to MP-CodeCheck to support@merly.ai or debugging@merly.ai. We would love to hear from you!
 
 ![alt text](https://media-exp1.licdn.com/dms/image/C4D0BAQEnOGFgvBPPXQ/company-logo_200_200/0/1649871676108?e=2147483647&v=beta&t=7Y_hfEZuVYKRw9upbFFEJ4POshxe_JGl3EhGJDpVvgg "Merly")
 
