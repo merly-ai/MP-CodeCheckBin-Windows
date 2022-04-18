@@ -10,6 +10,8 @@ MPCC is an AI-based code anomaly detection system. More specifically, MPCC uses 
 (ii) grading the quality of an existing repository, and (iii) guiding programmers through the important aspects of an unfamiliar or updated code
 repository, to name a few.
 
+![System Diagram](https://user-images.githubusercontent.com/92695077/163854383-fadec958-7958-4f27-95be-3f4dcd689f5f.jpg)
+
 At its core, MPCC is a machine programming (MP) system that autonomously identifies anomalous logical expressions directly
 in source code. These anomalous expressions, also known as anomalies, are often latent defects in the existing code that
 programmers have failed to identify or correct. MPCC helps programmers find these anomalies and correct them, thereby
