@@ -199,3 +199,14 @@ MPCC executable was launched and have the following naming structure.
 
 **[Code Repo].by_file.txt:** This file lists all anomalous expressions (that are not nested if’s) found by MPCC. This human
 readable file lists the original anomalous source and its normalized version.
+
+**[Code Repo].by_file nested if.txt:** This file lists all nested if expressions that are found by MPCC to be anomalous. This
+human readable file lists the original anomalous source and its normalized version.
+
+**[Code Repo].mpcc.anomaly_list.json:** This file lists all expressions that are found by MPCC to be anomalous, in a machine-
+readable format.
+
+**[Code Repo].mpcc.summary.json:** This file contains a summary of all of the files, size, and lines of code reviewed by
+MPCC. It also provides a summarized report of the number of expressions, anomalies, and scores found in the source code that
+inference was performed on, in a machine-readable format.
+
