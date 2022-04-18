@@ -2,7 +2,7 @@ Thank you for visiting Merly's MP-CodeCheck BETA GitHub repository! We are happy
 
 Please email us with any questions, comments, issues, or anything related to MP-CodeCheck to support@merly.ai or debugging@merly.ai. We would love to hear from you!
 
-![alt text](https://media-exp1.licdn.com/dms/image/C4D0BAQEnOGFgvBPPXQ/company-logo_200_200/0/1649871676108?e=2147483647&v=beta&t=7Y_hfEZuVYKRw9upbFFEJ4POshxe_JGl3EhGJDpVvgg "Merly")
+![merlydog_favicon](https://user-images.githubusercontent.com/92695077/163842195-66aabaa5-9db3-4499-8593-ae40fbef6e97.png)
 
 # What is MP-CodeCheck?
 MPCC is a self-supervised, iterative learning, anomaly detection system for code. MPCC was designed to learn good and bad code syntax, patterns, and semantics from a large corpora of existing code. Once trained, MPCC’s model can be used for a variety of tasks such as: (i) detecting potential anomalies in existing code,
@@ -28,11 +28,14 @@ Please ensure you place both the MPCC model and the executable files in the same
 recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
 
 
+
 ## Launching MP-CodeCheck
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
 following (where ”[code base folder]” is a directory that contains the code you want to analyze):
 
 *MPCC.exe infer -D [code base folder]*
 
+When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training data.
 
+![TrainingScreen](https://user-images.githubusercontent.com/92695077/163841808-0721b703-4883-455d-8323-91759bc10c1e.png)
 
