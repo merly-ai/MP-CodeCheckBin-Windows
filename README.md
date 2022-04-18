@@ -63,3 +63,37 @@ Here's a description of what you'll see on this screen:
 
 **Sort Criteria:** This refers to how MPCC is sorting the list of expressions it has found. This can be via score (a numeric value
 assigned by anomaly identification and complexity), or location (sequential code order).
+
+**Class Filter:** This refers to which class of complexity is being filtered in the current view. This can be set from a minimum
+value of trivial to a high value of Max complexity.
+
+**Cost Filter:** This refers to a “mental cost” of an expression. This filter can be set from a minimum value of 0 to a maximum
+value of 2,000.
+
+**Displayed Items:** This refers to which items MPCC is displaying. It can be set to all expressions, or only anomalous
+expressions.
+
+**Hide/Show Known Good:** This refers to whether or not MPCC displays expressions that have been marked by the user as
+Known Good.
+
+**Anomaly Identification:** This displays whether or not MPCC has identified the current expression as an anomaly. Non-
+anomalous expressions will be classified as “known pattern detected” and highlighted in green. Anomalous expressions will be
+classified as “unfamiliar pattern(s) detected” and will be highlighted in green.
+
+**Cost:** This displays the “mental cost” of the current expression.
+
+**Complexity:** This displays the class of complexity of the current expression.
+
+**Source Code Location:** This displays the file location of the source code under review.
+
+**Anomaly/Expression Count:** This displays the count of the highlighted expression, as well as the total expressions found in
+this file. If the user toggles the filter to show only anomalies, this will display the count of highlighted anomaly, and the total
+anomalies found in the current file.
+
+**Walking Through Code:** You can move forwards and backwards through the expressions by using the left and right arrow
+keys, and can page up and page down through the code (by location) using the Page Up and Page Down keys. You can also
+scroll up and down through the code by hold the Control key while pressing the up or the down arrow, respectively.
+
+
+
+
