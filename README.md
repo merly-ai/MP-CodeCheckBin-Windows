@@ -134,5 +134,8 @@ highlighted to switch back to the Code View with that specific expression highli
 
 <img width="705" alt="ExpressionsView" src="https://user-images.githubusercontent.com/92695077/163855949-501e65c3-93bc-4636-8a03-66769259c753.png">
 
+**Details View:** Press ‘d’ to switch to the Details view. This view shows the detail of the currently selected expression. The
+detail lets you know how many anomalies MPCC identified within the expression, the cost, and the total score. Press ‘d’ to
+return to Code View.
 
-
+<img width="705" alt="DetailsView" src="https://user-images.githubusercontent.com/92695077/163856242-1b2c3abe-c710-49e6-b4a0-b39df1eba9de.png">
