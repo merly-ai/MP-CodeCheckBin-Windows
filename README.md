@@ -121,5 +121,11 @@ specific anomaly.
 
 <img width="705" alt="AnomaliesView" src="https://user-images.githubusercontent.com/92695077/163855188-f5023c56-bbc2-4071-ba67-0651d6cbfdeb.png">
 
+**Files View:** Press ‘f’ to switch to the Files view. This view shows all of the source code files, with the total number of
+expressions MPCC found in each file. You can move up and down the list using the up and down arrows, or the Page Up and
+Page Down keys. Press Enter with a file highlighted to switch back to the Code View of the expressions within that specific file.
+
+<img width="705" alt="FilesView" src="https://user-images.githubusercontent.com/92695077/163855836-3a8ac307-5518-4796-ac55-8af3bcc9ec16.png">
+
 
 
