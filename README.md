@@ -4,6 +4,7 @@ Please email us with any questions, comments, issues, or anything related to MP-
 
 ![merlydog_favicon](https://user-images.githubusercontent.com/92695077/163842195-66aabaa5-9db3-4499-8593-ae40fbef6e97.png)
 
+
 # What is MP-CodeCheck?
 MPCC is a self-supervised, iterative learning, anomaly detection system for code. MPCC was designed to learn good and bad code syntax, patterns, and semantics from a large corpora of existing code. Once trained, MPCC’s model can be used for a variety of tasks such as: (i) detecting potential anomalies in existing code,
 (ii) grading the quality of an existing repository, and (iii) guiding programmers through the important aspects of an unfamiliar or updated code
@@ -28,7 +29,6 @@ Please ensure you place both the MPCC model and the executable files in the same
 recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
 
 
-
 ## Launching MP-CodeCheck
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
 following (where ”[code base folder]” is a directory that contains the code you want to analyze):
@@ -51,4 +51,11 @@ analyze the inference results as discussed in the next section.
 <img width="705" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/163842762-71dd7e1f-4f25-4be2-a59c-b51bec239480.png">
 
 
+## Exploring MPCC's Inference Results
+
+After inference analysis is performed, MPCC will show a user interface that includes source code, with an expression highlighted.
+We call this screen the *Code View*, which will be described in more detail in Views section of this manual. The image below provides an
+example of an anomalous code example found by MPCC.
+
+![CodeView with identifiers](https://user-images.githubusercontent.com/92695077/163843319-26c465c0-c735-49fa-92a4-392f28923a92.png)
 
