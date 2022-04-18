@@ -114,3 +114,12 @@ MPCC is initially run.
 
 <img width="705" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/163855031-ea4db9ed-1ee5-4ac5-a5f5-a0d517ba449a.png">
 
+**Anomalies View:** Press ‘a’ to switch to the Anomalies view. This view shows all of the expressions in the code (across all
+files) that MPCC has determined to be an anomaly, sorted by score. You can move up and down the list using the up and down
+arrows, or the Page Up and Page Down keys. Press Enter with an anomaly highlighted to switch back to the Code View of that
+specific anomaly.
+
+<img width="705" alt="AnomaliesView" src="https://user-images.githubusercontent.com/92695077/163855188-f5023c56-bbc2-4071-ba67-0651d6cbfdeb.png">
+
+
+
