@@ -210,3 +210,10 @@ readable format.
 MPCC. It also provides a summarized report of the number of expressions, anomalies, and scores found in the source code that
 inference was performed on, in a machine-readable format.
 
+## MPCC Configuration
+For users who wish to customize their MPCC experience, a JSON file is available to configure MPCC to fit your preferences.
+
+The JSON file is located at the following location:
+
+*%appdata%\..\local\merly.ai\debugging\MP-CodeCheck\config.json*
+
