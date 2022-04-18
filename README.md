@@ -158,3 +158,18 @@ The following lists the ways MPCC’s inference results on source code data can 
 **Default:** Score
 
 **Toggle:** ‘s’ key
+
+***Class filter***
+
+**Options:**
+* Trivial (minimum)
+* Basic
+* Complex 1
+* Complex 2
+* Max
+
+**Default:** Trivial
+
+**Adjust:** '1', '2', '3', '4', '5' keys
+
+
