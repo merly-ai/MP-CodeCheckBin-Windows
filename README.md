@@ -59,3 +59,7 @@ example of an anomalous code example found by MPCC.
 
 ![CodeView with identifiers](https://user-images.githubusercontent.com/92695077/163843319-26c465c0-c735-49fa-92a4-392f28923a92.png)
 
+Here's a description of what you'll see on this screen:
+
+**Sort Criteria:** This refers to how MPCC is sorting the list of expressions it has found. This can be via score (a numeric value
+assigned by anomaly identification and complexity), or location (sequential code order).
