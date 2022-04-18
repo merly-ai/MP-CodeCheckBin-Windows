@@ -39,3 +39,16 @@ When run successfully, MPCC will display information that looks similar to the f
 
 ![TrainingScreen](https://user-images.githubusercontent.com/92695077/163841808-0721b703-4883-455d-8323-91759bc10c1e.png)
 
+When MPCC has loaded its trained model and processed the code DNA, it begins inference analysis on all source code that
+it finds in the files of the directory (or subdirectories) you have supplied when launching it. The image below shows an example of
+MPCC’s inference progress in analyzing a code repository, how much work it has completed, and how much work is remaining.
+
+![Inference](https://user-images.githubusercontent.com/92695077/163842630-a1778d96-12e5-4294-8639-40482fc8b0ea.png)
+
+When inference analysis has completed, the Code View screen will appear (see image below), which will allow a user to
+analyze the inference results as discussed in the next section.
+
+<img width="705" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/163842762-71dd7e1f-4f25-4be2-a59c-b51bec239480.png">
+
+
+
