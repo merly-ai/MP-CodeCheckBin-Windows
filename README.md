@@ -127,5 +127,12 @@ Page Down keys. Press Enter with a file highlighted to switch back to the Code V
 
 <img width="705" alt="FilesView" src="https://user-images.githubusercontent.com/92695077/163855836-3a8ac307-5518-4796-ac55-8af3bcc9ec16.png">
 
+**Expressions View:** Press ‘e’ to switch to the Expressions view. This view shows all of the expressions in the current file,
+sorted by score. You can move up and down the list using the up and down arrows, or the Page Up and Page Down keys. Also
+note that you can toggle the sort between code location and score by pressing the ‘s’ key. Press Enter with an expression
+highlighted to switch back to the Code View with that specific expression highlighted.
+
+<img width="705" alt="ExpressionsView" src="https://user-images.githubusercontent.com/92695077/163855949-501e65c3-93bc-4636-8a03-66769259c753.png">
+
 
 
