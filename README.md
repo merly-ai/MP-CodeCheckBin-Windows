@@ -217,3 +217,10 @@ The JSON file is located at the following location:
 
 *%appdata%\..\local\merly.ai\debugging\MP-CodeCheck\config.json*
 
+You can use any text editor to modify the colors, log file locations, and settings. Let’s take a closer look.
+
+**Colors:** These are stored in the json file in hexadecimal (HEX) RGB; simply use your favorite color picker to find the
+hex value of the color you’d like, and change the value of the associated item.
+
+For example, you can set *anomaly_background* to RGB *ab852e* to change the highlight color of the anomalous expressions to dark orange.
+
