@@ -172,4 +172,12 @@ The following lists the ways MPCC’s inference results on source code data can 
 
 **Adjust:** '1', '2', '3', '4', '5' keys
 
+***Cost filter:***
+
+**Options:**
+* 0 (minimum) to 2,000
+
+**Default:** 0
+
+**Adjust:** ',' to decrease, '.' to increase, 'm' to reset to 0 (minimum)
 
