@@ -181,3 +181,13 @@ The following lists the ways MPCC’s inference results on source code data can 
 
 **Adjust:** ',' to decrease, '.' to increase, 'm' to reset to 0 (minimum)
 
+***Hide/Show Known Good:***
+
+**Options:**
+* Hide Known Good
+* Show Known Good
+
+**Default:** Hide Known Good
+
+**Toggle:** '9' key
+
