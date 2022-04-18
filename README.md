@@ -16,10 +16,23 @@ improving the overall quality of the existing software. For this limited release
 ability to perform inference (i.e., detect good or bad patterns) on code. In subsequent releases of MPCC, we may also include
 the ability to train new models on other code bases, including users’ own proprietary ones.
 
+
 ## Setup Instructions
 Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
 things (at a minimum):
 1. A model trained on code (provided by Merly).
 2. The MPCC executable (provided by Merly).
 3. A code base to run inference against (provided by you, the user).
+
+Please ensure you place both the MPCC model and the executable files in the same folder. Then, to simplify inference, we
+recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
+
+
+## Launching MP-CodeCheck
+Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
+following (where ”[code base folder]” is a directory that contains the code you want to analyze):
+
+*MPCC.exe infer -D [code base folder]*
+
+
 
