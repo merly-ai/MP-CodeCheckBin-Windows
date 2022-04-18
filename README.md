@@ -155,3 +155,6 @@ The following lists the ways MPCC’s inference results on source code data can 
 * Score (numeric value assigned by anomaly identification and complexity)
 * Location (sequential code order)
 
+**Default:** Score
+
+**Toggle:** ‘s’ key
