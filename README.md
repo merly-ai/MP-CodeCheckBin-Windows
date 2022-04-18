@@ -105,3 +105,12 @@ yourself not remembering a keyboard command, just press ’h’ and MPCC will la
 screenshot of the help dialogue box is shown below.
 
 ![helpscreen](https://user-images.githubusercontent.com/92695077/163854769-94c37a71-74a4-40de-bc42-8ea852083aea.JPG)
+
+In addition to commands, there are several screens users can utilize to help them gain deeper insights into specific anomalies,
+general anomaly information, anomalies by file, anomalies per file, and so forth.
+
+**Code View:** This is the view of all of the code, with the expressions found highlighted. This view is the default view when
+MPCC is initially run.
+
+<img width="705" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/163855031-ea4db9ed-1ee5-4ac5-a5f5-a0d517ba449a.png">
+
