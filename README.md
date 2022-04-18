@@ -139,3 +139,10 @@ detail lets you know how many anomalies MPCC identified within the expression, t
 return to Code View.
 
 <img width="705" alt="DetailsView" src="https://user-images.githubusercontent.com/92695077/163856242-1b2c3abe-c710-49e6-b4a0-b39df1eba9de.png">
+
+**Help Pop-up:** In addition to the above views, you can press the ‘h’ key in any view to bring up the help screen which will
+show you all of the hot keys and their functions.
+
+![helpscreen](https://user-images.githubusercontent.com/92695077/163856546-bf918cdf-19b6-45d7-a5b3-0dc286ff9833.JPG)
+
+
