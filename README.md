@@ -242,3 +242,6 @@ You can change the log path by setting the directory associated with: log_path
 “run_training” – Determines whether or not training should be run before inference on the source code (defaults to true).
 
 “filter” – Determines if items (such as nested ifs) are extracted from the json anomaly list file (defaults to true).
+
+![banner](https://user-images.githubusercontent.com/92695077/163866689-00f29db2-6176-4e65-bd46-dddf96a6301e.jpg)
+
