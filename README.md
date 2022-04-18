@@ -230,3 +230,11 @@ Or, set *highlight_background* to RGB *4a9de0* to change the highlight color of 
 blue.
 
 ![blue_expressions](https://user-images.githubusercontent.com/92695077/163864865-83446d88-d972-4731-81c1-09de3207924b.png)
+
+**Log Files:**
+
+You can change the model path by setting the directory associated with: local-db_root_path
+
+You can change the log path by setting the directory associated with: log_path
+
+
