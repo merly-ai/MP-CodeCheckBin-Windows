@@ -197,4 +197,5 @@ In addition to the live (online) user interface, you can also review the inferen
 files. These files are re-generated each time inference is run successfully. These files will be created in the same folder that the
 MPCC executable was launched and have the following naming structure.
 
-
+**[Code Repo].by_file.txt:** This file lists all anomalous expressions (that are not nested if’s) found by MPCC. This human
+readable file lists the original anomalous source and its normalized version.
