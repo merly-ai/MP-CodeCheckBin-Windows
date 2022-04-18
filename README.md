@@ -191,3 +191,10 @@ The following lists the ways MPCC’s inference results on source code data can 
 
 **Toggle:** '9' key
 
+
+## MPCC Generated Files
+In addition to the live (online) user interface, you can also review the inference results offline through four MPCC generated
+files. These files are re-generated each time inference is run successfully. These files will be created in the same folder that the
+MPCC executable was launched and have the following naming structure.
+
+
