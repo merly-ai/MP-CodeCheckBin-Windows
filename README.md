@@ -104,7 +104,7 @@ by pressing the character ’h’ on your keyboard. The help command lists all o
 yourself not remembering a keyboard command, just press ’h’ and MPCC will launch the keyboard shortcut commands. A
 screenshot of the help dialogue box is shown below.
 
-![helpscreen](https://user-images.githubusercontent.com/92695077/163854769-94c37a71-74a4-40de-bc42-8ea852083aea.JPG)
+<img width="666" alt="Help" src="https://user-images.githubusercontent.com/92695077/163893676-f5845122-d222-45db-a756-7d8eca1c63a7.png">
 
 In addition to commands, there are several screens users can utilize to help them gain deeper insights into specific anomalies,
 general anomaly information, anomalies by file, anomalies per file, and so forth.
@@ -143,7 +143,7 @@ return to Code View.
 **Help Pop-up:** In addition to the above views, you can press the ‘h’ key in any view to bring up the help screen which will
 show you all of the hot keys and their functions.
 
-![helpscreen](https://user-images.githubusercontent.com/92695077/163856546-bf918cdf-19b6-45d7-a5b3-0dc286ff9833.JPG)
+<img width="666" alt="Help" src="https://user-images.githubusercontent.com/92695077/163893697-a8cd66b9-898b-4f84-8db4-92633864b4a6.png">
 
 ## Sorting/Filtering Inference Results
 
