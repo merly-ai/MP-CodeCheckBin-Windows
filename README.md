@@ -224,3 +224,9 @@ hex value of the color you’d like, and change the value of the associated item
 
 For example, you can set *anomaly_background* to RGB *ab852e* to change the highlight color of the anomalous expressions to dark orange.
 
+![orange_anomalies](https://user-images.githubusercontent.com/92695077/163864743-74a2e617-73f7-4788-ba9c-ee4ba5edf073.png)
+
+Or, set *highlight_background* to RGB *4a9de0* to change the highlight color of the non-anomalous expressions to light
+blue.
+
+![blue_expressions](https://user-images.githubusercontent.com/92695077/163864865-83446d88-d972-4731-81c1-09de3207924b.png)
