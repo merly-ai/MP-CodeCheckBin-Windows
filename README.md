@@ -237,4 +237,8 @@ You can change the model path by setting the directory associated with: local-db
 
 You can change the log path by setting the directory associated with: log_path
 
+**Settings:** 
 
+“run_training” – Determines whether or not training should be run before inference on the source code (defaults to true).
+
+“filter” – Determines if items (such as nested ifs) are extracted from the json anomaly list file (defaults to true).
