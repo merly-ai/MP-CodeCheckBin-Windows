@@ -145,4 +145,13 @@ show you all of the hot keys and their functions.
 
 ![helpscreen](https://user-images.githubusercontent.com/92695077/163856546-bf918cdf-19b6-45d7-a5b3-0dc286ff9833.JPG)
 
+## Sorting/Filtering Inference Results
+
+The following lists the ways MPCC’s inference results on source code data can be sorted and/or filtered.
+
+***Sort Criteria:***
+
+**Options:**
+* Score (numeric value assigned by anomaly identification and complexity)
+* Location (sequential code order)
 
