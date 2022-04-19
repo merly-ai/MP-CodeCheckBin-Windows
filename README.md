@@ -2,7 +2,7 @@ Thank you for visiting Merly's MP-CodeCheck (BETA) GitHub repository! We are hap
 
 Please email us with any questions, comments, issues, or anything related to MP-CodeCheck to support@merly.ai or debugging@merly.ai. We would love to hear from you!
 
-MP-CodeCheck currently only works with C (and C++). We plan to add support for othert languages in the coming months.
+MP-CodeCheck currently only works with C (and C++). We plan to add support for other languages in the coming months.
 
 ![merlydog_favicon](https://user-images.githubusercontent.com/92695077/163842195-66aabaa5-9db3-4499-8593-ae40fbef6e97.png)
 
