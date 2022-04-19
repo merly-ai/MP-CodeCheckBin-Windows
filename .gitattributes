@@ -2,4 +2,5 @@
 *.7z filter=lfs diff=lfs merge=lfs -text
 /MPCC-manual_v0.1.0_22-04-08.pdf filter=lfs diff=lfs merge=lfs -text
 /models/MP-CodeCheck-model_22-04-08.tar.gz filter=lfs diff=lfs merge=lfs -text
+/MPCC-manual_v0.1.0_22-04-19.pdf filter=lfs diff=lfs merge=lfs -text
 *.gz filter=lfs diff=lfs merge=lfs -text
