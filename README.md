@@ -22,6 +22,14 @@ ability to perform inference (i.e., detect good or bad patterns) on code. In sub
 the ability to train new models on other code bases, including users’ own proprietary ones.
 
 
+## Pre-Setup Instructions
+Merly provides two files that are necessary to run MPCC: (i) its model file and (ii) the MPCC
+executable. These files are large, so we zip them using 7Zip. You can use this tool (or your own preferred 7zip compression
+tool) to unzip the contents.
+
+You can download the 7Zip tool here: https://www.7-zip.org/
+
+
 ## Setup Instructions
 Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
 things (at a minimum):
