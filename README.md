@@ -58,7 +58,7 @@ following (where ”[code base folder]” is a directory that contains the code 
 
 When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training data.
 
-<img width="674" alt="Training2" src="https://user-images.githubusercontent.com/92695077/163893521-55bebb7a-7004-4f56-a2cd-af6de7b1dce7.png">
+<img width="769" alt="launch1" src="https://user-images.githubusercontent.com/92695077/168645632-5d1c34bd-9276-422b-918b-a201634c116b.png">
 
 When MPCC has loaded its trained model and processed the code DNA, it begins inference analysis on all source code that
 it finds in the files of the directory (or subdirectories) you have supplied when launching it. The image below shows an example of
