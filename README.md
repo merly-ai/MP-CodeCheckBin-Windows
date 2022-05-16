@@ -131,33 +131,33 @@ general anomaly information, anomalies by file, anomalies per file, and so forth
 **Code View:** This is the view of all of the code, with the expressions found highlighted. This view is the default view when
 MPCC is initially run.
 
-<img width="705" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/163855031-ea4db9ed-1ee5-4ac5-a5f5-a0d517ba449a.png">
+<img width="769" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/168646168-fe68083a-f342-4c1a-9756-4fc80afdbfad.png">
 
 **Anomalies View:** Press ‘a’ to switch to the Anomalies view. This view shows all of the expressions in the code (across all
 files) that MPCC has determined to be an anomaly, sorted by score. You can move up and down the list using the up and down
 arrows, or the Page Up and Page Down keys. Press Enter with an anomaly highlighted to switch back to the Code View of that
 specific anomaly.
 
-<img width="705" alt="AnomaliesView" src="https://user-images.githubusercontent.com/92695077/163855188-f5023c56-bbc2-4071-ba67-0651d6cbfdeb.png">
+<img width="769" alt="AnomaliesView" src="https://user-images.githubusercontent.com/92695077/168646244-5f6a4f07-377f-48af-807e-b7b3ca914c05.png">
 
 **Files View:** Press ‘f’ to switch to the Files view. This view shows all of the source code files, with the total number of
 expressions MPCC found in each file. You can move up and down the list using the up and down arrows, or the Page Up and
 Page Down keys. Press Enter with a file highlighted to switch back to the Code View of the expressions within that specific file.
 
-<img width="705" alt="FilesView" src="https://user-images.githubusercontent.com/92695077/163855836-3a8ac307-5518-4796-ac55-8af3bcc9ec16.png">
+<img width="769" alt="FilesView" src="https://user-images.githubusercontent.com/92695077/168646288-f5979345-e471-4d28-9c30-56a591dbec47.png">
 
 **Expressions View:** Press ‘e’ to switch to the Expressions view. This view shows all of the expressions in the current file,
 sorted by score. You can move up and down the list using the up and down arrows, or the Page Up and Page Down keys. Also
 note that you can toggle the sort between code location and score by pressing the ‘s’ key. Press Enter with an expression
 highlighted to switch back to the Code View with that specific expression highlighted.
 
-<img width="705" alt="ExpressionsView" src="https://user-images.githubusercontent.com/92695077/163855949-501e65c3-93bc-4636-8a03-66769259c753.png">
+<img width="675" alt="ExpressionsView" src="https://user-images.githubusercontent.com/92695077/168646327-a036401e-03fd-4995-b55b-85b31f34f07e.png">
 
 **Details View:** Press ‘d’ to switch to the Details view. This view shows the detail of the currently selected expression. The
 detail lets you know how many anomalies MPCC identified within the expression, the cost, and the total score. Press ‘d’ to
 return to Code View.
 
-<img width="705" alt="DetailsView" src="https://user-images.githubusercontent.com/92695077/163856242-1b2c3abe-c710-49e6-b4a0-b39df1eba9de.png">
+<img width="675" alt="DetailsView" src="https://user-images.githubusercontent.com/92695077/168646359-b68e6f97-e20b-4718-b25f-dbb924ed12f9.png">
 
 **Help Pop-up:** In addition to the above views, you can press the ‘h’ key in any view to bring up the help screen which will
 show you all of the hot keys and their functions.
