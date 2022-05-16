@@ -26,15 +26,15 @@ the ability to train new models on other code bases, including users’ own prop
 For your pre-setup in Windows, go to the Command Line Interface (CLI) in your user folder (for example, C:\Users\Paul)
 Once in the folder in the CLI, execute the following commands:
 
-mkdir Merly
+*mkdir Merly*
 
-cd Merly
+*cd Merly*
 
-curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/MerlyInstaller.exe
+*curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/MerlyInstaller.exe*
 
-curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/zlib.dll
+*curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/zlib.dll*
 
-MerlyInstaller install
+*MerlyInstaller install*
 
 You’re now ready to launch MP-CodeCheck
 
