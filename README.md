@@ -23,11 +23,20 @@ the ability to train new models on other code bases, including users’ own prop
 
 
 ## Pre-Setup Instructions
-Merly provides two files that are necessary to run MPCC: (i) its model file and (ii) the MPCC
-executable. These files are large, so we zip them using 7Zip. You can use this tool (or your own preferred 7zip compression
-tool) to unzip the contents.
+For your pre-setup in Windows, go to the Command Line Interface (CLI) in your user folder (for example, C:\Users\Paul)
+Once in the folder in the CLI, execute the following commands:
 
-You can download the 7Zip tool here: https://www.7-zip.org/
+mkdir Merly
+
+cd Merly
+
+curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/MerlyInstaller.exe
+
+curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/zlib.dll
+
+MerlyInstaller install
+
+You’re now ready to launch MP-CodeCheck
 
 
 ## Setup Instructions
