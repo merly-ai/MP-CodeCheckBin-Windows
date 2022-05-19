@@ -31,10 +31,10 @@ For your setup in Windows, go to the Command Line Interface (CLI) in your user f
 Once in the folder in the CLI, execute the following commands. where `<key>` is your product key:
 
 ```
-mkdir MPCC
-cd MPCC
-curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/MerlyInstaller.exe
-MerlyInstaller -k <key> install
+  mkdir MPCC
+  cd MPCC
+  curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/MerlyInstaller.exe
+  MerlyInstaller -k <key> install
 ```
 Note that if you previously installed MP-CodeCheck but now have a product key, running the MerlyInstaller step will register
 the key, and is safe to be performed.
