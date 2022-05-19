@@ -39,7 +39,7 @@ MerlyInstaller -k <key> install
 Note that if you previously installed MP-CodeCheck but now have a product key, running the MerlyInstaller step will register
 the key, and is safe to be performed.
   
-You’re now ready to launch MP-CodeCheck
+You’re now ready to launch MP-CodeCheck!
 
 ## Folder Structure
 Prior to running inference and reviewing the results, let’s make sure the environment is set up correctly. To run MPCC, you’ll need the following three
