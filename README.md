@@ -117,7 +117,7 @@ MPCC.exe infer -D [code base folder]
 ```
 
 
-When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training data.
+When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training model.
 
 <img width="769" alt="launch1" src="https://user-images.githubusercontent.com/92695077/168645632-5d1c34bd-9276-422b-918b-a201634c116b.png">
 
@@ -260,6 +260,16 @@ The following lists the ways MPCC’s inference results on source code data can 
 **Default:** 0
 
 **Adjust:** ',' to decrease, '.' to increase, 'm' to reset to 0 (minimum)
+
+***Displayed items:***
+
+**Options:**
+*All expressions
+*Anomalies only
+
+**Default:** All expressions
+
+**Toggle:** '0' key
 
 ***Hide/Show Known Good:***
 
