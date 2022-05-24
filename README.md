@@ -24,19 +24,80 @@ the ability to train new models on other code bases, including users’ own prop
 
 ## Installation Instructions
 
-Installation instructions for Windows can be found below. If you encounter any trouble with
-these steps, please contact support@merly.ai for assistance.
+MPCC's installation instructions for various operating systems are listed below. If you previously installed MP-CodeCheck without a product key, but now have one, it is safe to run the MerlyInstaller again to register MPCC
 
-Launch cmd.exe (do not use PowerShell as the cURL commands are not supported in the same fashion there). Once in the directory of your choosing, execute the following commands. where `<key>` is your product key:
+If you encounter any trouble with these steps, please contact support@merly.ai for assistance.
 
+### Linux (RedHat)
+Launch the command line interface and execute the following commands, where `<key>` is your product key:
+```
+  mkdir MPCC
+  cd MPCC/
+  curl -OL https://github.com/merly-ai/MP-CodeCheckBin-RedHat/raw/main/bin/latest/MerlyInstaller
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```
+
+
+### Linux (SUSE)
+Launch the command line interface and execute the following commands, where `<key>` is your product key:
+```
+  mkdir MPCC
+  cd MPCC/
+  curl -OL https://github.com/merly-ai/MP-CodeCheckBin-Suse/raw/main/bin/latest/MerlyInstaller
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```
+
+
+### Linux (Ubuntu)
+Launch the command line interface and execute the following commands, where `<key>` is your product key:
+```
+  mkdir MPCC
+  cd MPCC/
+  curl -OL https://github.com/merly-ai/MP-CodeCheckBin-Ubuntu/raw/main/bin/latest/MerlyInstaller
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```
+
+
+### MacOS arm64 (ARM M1 CPU)
+Launch Terminal and execute the following commands, where `<key>` is your product key:
+```
+  mkdir MPCC
+  cd MPCC
+  curl -L -o MerlyInstaller https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller-arm64
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```  
+
+For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for
+the default MacOS terminal. You can download it for free here: https://iterm2.com/downloads.html.
+
+
+### MacOS x64 (Intel x86 CPU)
+Launch Terminal and execute the following commands, where `<key>` is your product key:
+```
+  mkdir MPCC
+  cd MPCC
+  curl -L -o MerlyInstaller https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller-x64
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```  
+
+For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for
+the default MacOS terminal. You can download it for free here: https://iterm2.com/downloads.html.
+
+
+### Windows (64-bit) 
+
+Launch cmd.exe (PowerShell will NOT work because it does not have the proper native curl parameter support). Navigate to your user preffered installation directory (e.g., `cd C:\Users\Paul`). Once there, execute the following commands. where `<key>` is your product key:
 ```
   mkdir MPCC
   cd MPCC
   curl -LO https://github.com/merly-ai/MP-CodeCheckBin-Windows/raw/main/bin/latest/MerlyInstaller.exe
   MerlyInstaller -k <key> install
 ```
-Note that if you previously installed MP-CodeCheck but now have a product key, running the MerlyInstaller step will register
-the key, and is safe to be performed.
   
 You’re now ready to launch MP-CodeCheck!
 
