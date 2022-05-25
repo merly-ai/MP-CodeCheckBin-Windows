@@ -2,7 +2,7 @@ Thank you for visiting Merly's MP-CodeCheck GitHub repository! We are happy you 
 
 Please email us with any questions, comments, issues, or anything related to MP-CodeCheck to support@merly.ai or debugging@merly.ai. We would love to hear from you!
 
-MP-CodeCheck currently works with C, C++, C#, Go, Java, JavaScript, and Python. We plan to continue to add support for other programming languages in the future.
+MP-CodeCheck currently supports code in C, C++, C#, Go, Java, JavaScript, PHP, Python, and VHDL. We plan to continue to add support for other programming languages in the future.
 
 ![merlydog_favicon](https://user-images.githubusercontent.com/92695077/163842195-66aabaa5-9db3-4499-8593-ae40fbef6e97.png)
 
