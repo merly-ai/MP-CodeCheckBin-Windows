@@ -182,7 +182,7 @@ After inference analysis is performed, Merly Mentor will show a user interface t
 We call this screen the *Code View*, which will be described in more detail in Views section of this manual. The image below provides an
 example of an anomalous code example found by Mentor.
 
-<img width="1397" alt="anomaly" src="https://user-images.githubusercontent.com/92695077/174149260-0f9b0798-7dfc-48bf-a3b2-97f7ed24063c.png">
+<img width="1430" alt="anomaly" src="https://user-images.githubusercontent.com/92695077/176058179-04c8534d-b09a-449d-9af9-e09287c08937.png">
 
 Here's a description of what you'll see on this screen:
 
