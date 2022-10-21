@@ -1,1 +1,2 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
+MerlyInstaller-Staging.exe filter=lfs diff=lfs merge=lfs -text
