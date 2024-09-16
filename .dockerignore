@@ -1,0 +1,6 @@
+# Ignore all files
+*
+
+# Except the following:
+!models/
+!Dockerfile
