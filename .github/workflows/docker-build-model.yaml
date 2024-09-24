@@ -1,9 +1,12 @@
 name: CI
 
 on:
-  push:
   workflow_dispatch:
-    branches: [ "main" ]
+    inputs:
+      model_version:
+        description: "Specify the model version"
+        required: true
+        default: "v2.0.0"
 
 jobs:
   Docker_Build_Push:
@@ -11,7 +14,7 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       IMAGE_NAME:     merlyai/merly-mentor-models
-      IMAGE_TAG:      v2.0.0
+      IMAGE_TAG:      ${{ github.event.inputs.model_version }}
     steps:
       - name: Check out code
         uses: actions/checkout@v3
