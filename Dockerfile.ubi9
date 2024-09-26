@@ -1,4 +1,4 @@
-FROM alpine:3.20.3 AS base
+FROM redhat/ubi9-minimal:9.4
 
 # Metadata Labels
 LABEL org.opencontainers.image.title="Merly Mentor Assets"
@@ -11,8 +11,8 @@ LABEL org.opencontainers.image.documentation=""
 LABEL org.opencontainers.image.maintainers="Urs C. Muff <urs.muff@merly.ai>, Justin Gottschlich <justin@merly.ai>"
 LABEL org.opencontainers.image.authors="Urs C. Muff <urs.muff@merly.ai, Saif Zaman <saif.zaman@merly.ai>"
 
-# Security: Create a non-root user and group
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+# Create a non-root user and group for security
+RUN groupadd -r appgroup && useradd -r -g appgroup -d /merly -s /sbin/nologin appuser
 
 # Set working directory
 WORKDIR /app
@@ -38,7 +38,8 @@ RUN chown -R appuser:appgroup /app
 FROM base AS final
 
 # Ensure the base image is as lightweight as possible
-RUN microdnf install -y git ca-certificates && \
+# Install ca-certificates as a runtime dependency using microdnf
+RUN microdnf install -y ca-certificates && \
     microdnf clean all && \
     rm -rf /var/cache/yum /var/log/yum.log /tmp/* /var/tmp/*
 
