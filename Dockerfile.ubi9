@@ -1,4 +1,4 @@
-FROM redhat/ubi9-minimal:9.4
+FROM redhat/ubi9-minimal:9.4 as base
 
 # Metadata Labels
 LABEL org.opencontainers.image.title="Merly Mentor Assets"
