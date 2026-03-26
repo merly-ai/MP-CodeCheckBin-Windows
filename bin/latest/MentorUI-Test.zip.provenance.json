@@ -1,12 +1,12 @@
 {
   "repo": "merly-ai/Mentor.UI",
-  "commit_sha": "640b3358ea9ae49dd3340330fe2be9444f8a956a",
-  "ref": "refs/heads/hotfix/fix-auth-callback-redirect",
+  "commit_sha": "ea076b90cf0a6f71da5118385bd125ee490c6a1f",
+  "ref": "refs/heads/hotfix-dif-signed-user-display",
   "workflow": "CI",
-  "run_id": "23617182278",
+  "run_id": "23620537958",
   "channel": "Test",
-  "built_at_utc": "2026-03-26T20:55:25.732Z",
-  "artifact_sha256": "688217796fe072a6683e5e394d2045a1bacdecebec3753c3daf14db50f4e6a15",
+  "built_at_utc": "2026-03-26T22:19:25.633Z",
+  "artifact_sha256": "16300e06cc840b9718867c33e69fc4a6d4999e8bc86958429454aa0d93d112cc",
   "provenance_key_id": "",
   "provenance_signature": ""
 }
