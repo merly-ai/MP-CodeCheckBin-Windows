@@ -1,12 +1,12 @@
 {
   "repo": "merly-ai/Mentor.UI",
-  "commit_sha": "ea076b90cf0a6f71da5118385bd125ee490c6a1f",
-  "ref": "refs/heads/hotfix-dif-signed-user-display",
+  "commit_sha": "ff33b76fbbea8e5f7e7344e1ea4f3689c81746e1",
+  "ref": "refs/heads/main",
   "workflow": "CI",
-  "run_id": "23620537958",
+  "run_id": "23632744922",
   "channel": "Test",
-  "built_at_utc": "2026-03-26T22:19:25.633Z",
-  "artifact_sha256": "16300e06cc840b9718867c33e69fc4a6d4999e8bc86958429454aa0d93d112cc",
+  "built_at_utc": "2026-03-27T05:41:28.465Z",
+  "artifact_sha256": "03e2b68a7c1a93352f937008a850a99cf800ac85134771aece70af6e0d7f4f9d",
   "provenance_key_id": "",
   "provenance_signature": ""
 }
