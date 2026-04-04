@@ -1,12 +1,12 @@
 {
   "repo": "merly-ai/Mentor.UI",
-  "commit_sha": "dad4372e86ef4c5e7ebecf7adc978f2b132c18da",
+  "commit_sha": "4e8594735c14f13886e7e7f07923dccbd365e55e",
   "ref": "refs/heads/main",
   "workflow": "CI",
-  "run_id": "23771419792",
+  "run_id": "23980719920",
   "channel": "Test",
-  "built_at_utc": "2026-03-30T22:55:48.506Z",
-  "artifact_sha256": "947a86253f703a80c46f4390be7d4c0c796278786722978ef984f39abbaaf64b",
+  "built_at_utc": "2026-04-04T14:30:08.259Z",
+  "artifact_sha256": "20b0f467d18ca0a84dc46aa384b3151a5b26dcdf05f67e856e10d3b81ef3842c",
   "provenance_key_id": "",
   "provenance_signature": ""
 }
